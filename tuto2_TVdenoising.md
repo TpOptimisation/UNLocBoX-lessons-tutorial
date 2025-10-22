@@ -1,7 +1,3 @@
-
----
-
-````markdown
 # TUTORIEL 2 : Débruitage d'image par variation totale (TV)
 
 ## AUTEURS
@@ -41,13 +37,13 @@ y = y + 0.05 * randn(size(y)); % Ajout de bruit
 L’objectif est de résoudre le problème suivant :
 
 [
-\min_x \frac{1}{2} |x - y|_2^2 + \lambda , TV(x)
+min_x 1/2||x - y||2 ^2 λTV(x)
 ]
 
 où :
 
 * ( TV(x) ) est la **variation totale** de l’image, pénalisant les variations abruptes pour favoriser des zones homogènes,
-* ( \lambda ) contrôle le niveau de régularisation (compromis entre fidélité aux données et lissage).
+* ( λ ) contrôle le niveau de régularisation (compromis entre fidélité aux données et lissage).
 
 ```matlab
 lambda = 0.02;
