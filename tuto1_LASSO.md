@@ -1,6 +1,6 @@
 # Tutoriel 1 : Régression LASSO avec UNLocBoX
 
-## 👥 AUTEURS
+##  AUTEURS
 - **YOUBI BOPDA FREDY LOIC** – 20U2811  
 - **DIBAKTO DEBAMI MANICH JORDAN** – 000000  
 - **DAWAI HOSSEA** – 21T2436  
@@ -14,7 +14,7 @@ L’objectif est de reconstruire un **signal parcimonieux** (sparse) à partir d
 
 ---
 
-## ⚙️ Étapes du tutoriel
+## Étapes du tutoriel
 
 ### 1️ Chargement des librairies
 
